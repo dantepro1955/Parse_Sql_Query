@@ -1,0 +1,36 @@
+#-----------------
+ww,3,4,5,6,7,8,
+,select * from abc,2,3,4,5,6,7,
+,select a from abc,2,3,4,5,6,7,
+ww,3,4,5,6,7,8,
+,select b from abc,2,3,4,5,6,7,
+,SELECT COUNT(ProductID) FROM (SELECT * FROM Products);,
+,SELECT COUNT(ProductID,name) FROM Products;,,
+,SELECT AVG(ProductID) FROM Products;,,
+,SELECT SUM(Quantity) FROM OrderDetails;,,
+,SELECT a.name FROM (SELECT name FROM agentinformation) a  ,,,,,
+,ALTER TABLE table_name ADD column_name datatype;,,
+,SELECT column_name(s) FROM table_name WHERE column_1 = value_1  AND column_2 = value_2;,,
+,SELECT column_name AS 'Alias' FROM table_name;,,
+,SELECT COUNT(column_name) FROM table_name;,,
+,CREATE TABLE table_name (  column_1 datatype,   column_2 datatype,   column_3 datatype);,,
+,DELETE FROM table_name WHERE some_column = some_value;,
+,SELECT COUNT(*) FROM table_name GROUP BY column_name;,
+#iiiiiiiiiiiiiiiiiiiiiiiiii
+ww,3,4,5,6,7,8,
+,SELECT column_name AS 'Alias' FROM table_name;,,
+,SELECT column_name AS 'Alias' FROM (select * from table_name);,,
+,SELECT column_name AS 'Alias' FROM table_name;,,
+ww,3,[SUB_CASE_NUMBER],5,6,7,8,,
+,SELECT column_name AS 'Alias' FROM table_name;,,
+,SELECT column_name AS 'Alias' FROM table_name;,,
+,SELECT column_name FROM table_name AS 'Alias';,,
+
+
+
+
+
+
+
+
+
